@@ -46,5 +46,11 @@ public class emailController {
     }
 	
 	
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+    public String test() {
+       
+       return "Hello World!!";
+    }
+	
 
 }
